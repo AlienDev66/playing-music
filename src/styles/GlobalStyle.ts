@@ -7,12 +7,14 @@ export default createGlobalStyle`
  box-sizing: border-box;
 }
 body{
- color: #FFF;
  background-color: var(--color-background);
 }
 
 body, input, button, textarea {
- font: 600 18px Nunito, sans-serif;
+ font: 600 18px Ubuntu, Nunito, sans-serif;
 }
-
+:root{
+ --color-background: #ebf2f5;
+ --color-button: #ffd666;
+}
 `;
